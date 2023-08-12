@@ -9,6 +9,8 @@ import { useEffect, useState } from 'react';
 
 
 const MobileSidebar = () => {
+
+    // For Hydration Warning
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
